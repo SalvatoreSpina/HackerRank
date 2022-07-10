@@ -10,11 +10,8 @@ using namespace std;
  */
 
 vector<int> countingSort(vector<int> arr) {
-    vector<int> vec(100);
-    int value = 0;
-    fill(vec.begin(), vec.end(), value);
-    for (int n : arr) {
+    vector<int> vec (100, 0);
+    for (int n : arr)
         vec[n]++;
-    }
     return vec;
 }
