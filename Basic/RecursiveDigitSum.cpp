@@ -15,10 +15,6 @@ int superDigit(string n, int k) {
     
     size_t sum = 0;
     std:string numb = n;
-    //numb.reserve(n.length() * k);
-    
-    //while (k--)
-    //    numb += n;
     
     sum = 0;
 
